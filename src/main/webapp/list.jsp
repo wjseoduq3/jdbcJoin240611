@@ -33,7 +33,7 @@
 			
 			rs = stmt.executeQuery(sql);
 			
-			List<MemberDto> members = new ArrayList<MemberDto>();
+			List<MemberDto> members = new ArrayList<MemberDto>();  // DTO, VO 파트 다시 공부
 		
 			// rs안의 자료를 하나씩 끄집어 내는 과정
 			while(rs.next()) {
