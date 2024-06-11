@@ -1,4 +1,5 @@
 <%@page import="com.jdy.dto.MemberDto"%>
+<%@page import="java.util.ArrayList"%>
 <%@page import="java.util.*"%>
 <%@page import="java.sql.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
