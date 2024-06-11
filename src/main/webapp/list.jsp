@@ -39,7 +39,7 @@
 			while(rs.next()) {
 				int mnum = rs.getInt("member_num");
 				String mname = rs.getString("member_name");
-				String memail = rs.getString("memevr_email");
+				String memail = rs.getString("member_email");
 				String mdate = rs.getString("member_signuptime");
 				
 				MemberDto memberDto = new MemberDto();
